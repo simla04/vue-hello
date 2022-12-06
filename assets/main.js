@@ -1,6 +1,13 @@
-var app = new Vue({
+var app = new Vue(
+  {
     el: '#app',
     data: {
-      message: 'Hello Vue!'
+      titolo: 'Hello Vue!',
+      linkImmagine:'https://picsum.photos/200/300'
+      
+    },
+    methods: {
+
     }
-  })
+  }
+  );
